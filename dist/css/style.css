@@ -12,3 +12,21 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(1, 1fr);
 }
+
+.header .header-box .box .header-container {
+  width: 80%;
+  margin-inline: auto;
+}
+
+.header .header-box .box:nth-child(1) {
+  background-color: ;
+}
+
+.header .header-box .box:nth-child(2) {
+  position: relative;
+}
+
+.header .header-box .box:nth-child(2) img {
+  width: 100%;
+  height: 100%;
+}
