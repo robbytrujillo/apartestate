@@ -107,10 +107,15 @@
   border-radius: 30px;
   border: none;
   cursor: pointer;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 
 .header .header-box .box:nth-child(1) form button:hover {
-  background-color: #042c31ff;
+  background-color: #1b4ea7;
 }
 
 .header .header-box .box:nth-child(2) {
