@@ -79,6 +79,7 @@
   z-index: 101;
   background-color: #ffffff;
   padding: 8px;
+  width: 55%;
 }
 
 .header .header-box .box:nth-child(1) form ::-webkit-input-placeholder {
