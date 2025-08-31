@@ -78,6 +78,7 @@
   position: absolute;
   z-index: 101;
   background-color: #ffffff;
+  border-radius: 30px;
   padding: 8px;
   width: 55%;
 }
