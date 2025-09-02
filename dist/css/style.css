@@ -34,6 +34,12 @@
   color: #ffffff;
 }
 
+.header .header-box .box:nth-child(1) .menu-nav i {
+  color: #ffffff;
+  font-size: 28px;
+  display: none;
+}
+
 .header .header-box .box:nth-child(1) .menu-nav ul {
   display: flex;
 }
@@ -124,6 +130,8 @@
   margin-top: 130px;
   display: flex;
   column-gap: 30px;
+  /* justify-content: center;
+  text-align: center; */
 }
 
 .header .header-box .box:nth-child(1) .info .box h1 {
@@ -214,5 +222,39 @@
 
   .header .header-box .box:nth-child(2) .loc {
     width: 280px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .header .header-box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .header .header-box > .box:nth-child(1) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../../assets/img/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .header .header-box .box:nth-child(1) .menu-nav ul {
+    display: none;
+  }
+
+  .header .header-box .box:nth-child(1) .menu-nav i {
+    display: block;
+  }
+
+  .header .header-box .box:nth-child(1) .info {
+    justify-content: flex-start;
+  }
+
+  .header .header-box .box:nth-child(1) .info .box:nth-child(1) {
+    background-color: transparent;
+  }
+
+  .header .header-box > .box:nth-child(2) {
+    display: none;
   }
 }
