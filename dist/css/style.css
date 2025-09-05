@@ -255,6 +255,14 @@
     -o-transform: translate(-50%, -50%) scale(0);
   }
 
+  .header .header-box .box:nth-child(1) .menu-nav .menu.menu-active {
+    transform: translate(-50%, -50%) scale(1);
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    -moz-transform: translate(-50%, -50%) scale(1);
+    -ms-transform: translate(-50%, -50%) scale(1);
+    -o-transform: translate(-50%, -50%) scale(1);
+  }
+
   .header .header-box .box:nth-child(1) .menu-nav ul li {
     text-align: center;
   }
