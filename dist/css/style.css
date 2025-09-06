@@ -285,6 +285,13 @@
     -o-transform: scale(0);
   }
 
+  .header .header-box .box:nth-child(1) .menu-nav .bg-navbar.bg-active {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+
   .header .header-box .box:nth-child(1) .menu-nav ul li {
     text-align: center;
   }
