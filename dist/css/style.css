@@ -135,8 +135,7 @@
   display: flex;
   column-gap: 30px;
   justify-content: space-between;
-  /* justify-content: center;
-  text-align: center; */
+  /*text-align: center; */
 }
 
 .header .header-box .box:nth-child(1) .info .box h1 {
@@ -341,4 +340,19 @@
   .header .box-header .box:nth-child(1) .info {
     justify-content: space-between;
   }
+
+  .header .box-header .box:nth-child(1) .info .box h1 {
+    font-size: 30px;
+  }
+
+  .header .box-header .box:nth-child(1) .info .box h1 i {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .header .box-header .box:nth-child(1) .info {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
 }
