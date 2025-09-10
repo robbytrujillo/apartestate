@@ -372,10 +372,6 @@
 }
 
 @media screen and (max-width: 370px) {
-  .header .header-box .box:nth-child(1) .info .box h1 {
-    font-size: 20px;
-  }
-
   .header .header-box .box:nth-child(1) .info .box p {
     font-size: 12px;
   }
