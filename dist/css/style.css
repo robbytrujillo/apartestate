@@ -273,6 +273,7 @@
   }
 
   .header .header-box .box:nth-child(1) .menu-nav .bg-navbar {
+    display: block;
     position: absolute;
     z-index: 999;
     top: 0;
