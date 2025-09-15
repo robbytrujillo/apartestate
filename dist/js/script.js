@@ -6,3 +6,8 @@ menuBar.addEventListener("click", () => {
   menuNav.classList.toggle("menu-active");
   bgNav.classList.toggle("bg-active");
 });
+
+bgNav.addEventListener("click", () => {
+  menuNav.classList.remove("menu-active");
+  bgNav.classList.remove("bg-active")
+});
