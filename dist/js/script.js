@@ -9,5 +9,5 @@ menuBar.addEventListener("click", () => {
 
 bgNav.addEventListener("click", () => {
   menuNav.classList.remove("menu-active");
-  bgNav.classList.remove("bg-active")
+  bgNav.classList.remove("bg-active");
 });
