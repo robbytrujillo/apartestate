@@ -206,6 +206,56 @@
   margin-right: 5px;
 }
 
+.container {
+  width: 80%;
+  margin-inline: auto;
+}
+
+/* Apartement Start */
+.apartement {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.apartement .apartement-box .box img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.apartement .apartement-box .box .description .star i {
+  color: gold;
+  margin-bottom: 10px;
+}
+
+.apartement .apartement-box .box .description h3 {
+  margin-bottom: 5px;
+}
+
+.apartement .apartement-box .box .description p {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.apartement .apartement-box .box .description button {
+  width: 120px;
+  height: 40px;
+  border: none;
+  background-color: #316acc;
+  border-radius: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.apartement .apartement-box .box .description button:hover {
+  background-color: #1b4ea7;
+}
+/* Apartement End */
+
 @media screen (max-width: 1200px) {
   .header .header-box .box:nth-child(1) .menu-nav ul li {
     margin-inline: 0;
