@@ -219,10 +219,18 @@
   padding-bottom: 100px;
 }
 
+.apartement .apartement-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  row-gap: 50px;
+}
+
 .apartement .apartement-box .box img {
   width: 100%;
   height: 200px;
   margin-bottom: 10px;
+  border-radius: 30px;
 }
 
 .apartement .apartement-box .box .description .star i {
@@ -249,6 +257,11 @@
   margin-top: 20px;
   cursor: pointer;
   font-size: 14px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 
 .apartement .apartement-box .box .description button:hover {
