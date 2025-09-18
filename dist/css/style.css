@@ -441,4 +441,8 @@
   .header .header-box .box:nth-child(1) .info .box p {
     font-size: 12px;
   }
+
+  .apartement .apartement-box {
+    grid-template-columns: repeat(autofit, minmax(250px, 1fr));
+  }
 }
