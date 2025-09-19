@@ -446,6 +446,10 @@
   .header .header-box .box:nth-child(1) .info .box h1 i {
     font-size: 30px;
   }
+
+  .bg-fixed h1 {
+    font-size: 60px;
+  }
 }
 
 @media screen and (max-width: 470px) {
@@ -475,5 +479,9 @@
 
   .apartement .apartement-box {
     grid-template-columns: repeat(autofit, minmax(250px, 1fr));
+  }
+
+  .bg-fixed h1 {
+    font-size: 40px;
   }
 }
