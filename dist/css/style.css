@@ -566,4 +566,8 @@
   .about .about-box .box {
     align-self: flex-end;
   }
+
+  .about .about-box .box:nth-child(1) img {
+    border-radius: 30px;
+  }
 }
