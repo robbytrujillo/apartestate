@@ -563,6 +563,10 @@
     font-size: 40px;
   }
 
+  .about .about-box {
+    row-gap: 10px;
+  }
+
   .about .about-box .box {
     align-self: flex-end;
   }
