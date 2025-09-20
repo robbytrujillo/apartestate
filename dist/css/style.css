@@ -519,6 +519,11 @@
   .bg-fixed h1 {
     font-size: 60px;
   }
+
+  .about .about-box .box img {
+    width: 100%;
+    padding-inline: 20px;
+  }
 }
 
 @media screen and (max-width: 470px) {
@@ -539,6 +544,10 @@
   .header .header-box .box:nth-child(1) .info .box {
     text-align: center;
   }
+
+  .about .about-box .box:nth-child(2) p {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 370px) {
@@ -552,5 +561,9 @@
 
   .bg-fixed h1 {
     font-size: 40px;
+  }
+
+  .about .about-box .box {
+    align-self: flex-end;
   }
 }
