@@ -300,6 +300,7 @@
   height: 100vh;
   display: grid;
   align-items: center;
+  background-color: #f6f8fd;
 }
 
 .about .about-box {
@@ -464,6 +465,20 @@
 
   .header .header-box > .box:nth-child(2) {
     display: none;
+  }
+
+  .about .about-box {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    text-align: center;
+  }
+
+  .about .about-box .box img {
+    width: 400px;
+  }
+
+  .about .about-box .box:nth-child(2) p {
+    text-align: center;
   }
 }
 
