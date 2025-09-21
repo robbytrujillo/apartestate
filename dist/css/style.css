@@ -351,6 +351,10 @@
 .service {
   width: 100%;
   min-height: 100vh;
+  padding-bottom: 100px;
+  display: grid;
+  align-items: center;
+  background-color: #f6f8fd;
 }
 
 .service h1 {
@@ -372,7 +376,11 @@
 }
 
 .service .service-box .box img {
-  width: 100%;
+  width: 100px;
+}
+
+.service .service-box .box h3 {
+  margin-bottom: 5px;
 }
 /* Service End */
 
