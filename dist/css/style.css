@@ -347,6 +347,35 @@
 }
 /* About End */
 
+/* Service Start */
+.service {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.service h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 35px;
+}
+
+.service .service-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.service .service-box .box {
+  width: 300px;
+  text-align: center;
+}
+
+.service .service-box .box img {
+  width: 100%;
+}
+/* Service End */
+
 @media screen (max-width: 1200px) {
   .header .header-box .box:nth-child(1) .menu-nav ul li {
     margin-inline: 0;
