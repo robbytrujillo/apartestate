@@ -387,6 +387,30 @@
 /* Footer Start */
 footer {
   width: 100%;
+  min-height: 50vh;
+  display: grid;
+  align-items: center;
+}
+
+footer .container {
+  width: 90%;
+  margin-inline: auto;
+}
+
+footer .footer-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  column-gap: 30px;
+}
+
+footer .footer-box .box:nth-child(1) h2 {
+  margin-bottom: 10px;
+}
+
+footer .footer-box .box:nth-child(1) p {
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 /* Footer End */
 
