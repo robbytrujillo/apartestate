@@ -384,6 +384,12 @@
 }
 /* Service End */
 
+/* Footer Start */
+footer {
+  width: 100%;
+}
+/* Footer End */
+
 @media screen (max-width: 1200px) {
   .header .header-box .box:nth-child(1) .menu-nav ul li {
     margin-inline: 0;
