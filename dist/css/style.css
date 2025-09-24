@@ -390,6 +390,8 @@ footer {
   min-height: 50vh;
   display: grid;
   align-items: center;
+  background-color: #01090a;
+  color: #ffffff;
 }
 
 footer .container {
@@ -422,6 +424,21 @@ footer .footer-box .box:nth-child(1) .social i {
 
 footer .footer-box .box:nth-child(1) .social i:hover {
   color: #1b4ea7;
+}
+
+footer .footer-box .box:nth-child(2) {
+  text-align: center;
+  text-decoration: none;
+}
+
+footer .footer-box .box:nth-child(2) h3 {
+  margin-bottom: 10px;
+}
+
+footer .footer-box .box:nth-child(2) a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-inline: 10px;
 }
 /* Footer End */
 
