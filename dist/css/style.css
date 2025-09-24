@@ -417,6 +417,11 @@ footer .footer-box .box:nth-child(1) .social i {
   font-size: 24px;
   margin-right: 10px;
   color: #316acc;
+  cursor: pointer;
+}
+
+footer .footer-box .box:nth-child(1) .social i:hover {
+  color: #1b4ea7;
 }
 /* Footer End */
 
