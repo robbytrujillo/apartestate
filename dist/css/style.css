@@ -609,6 +609,7 @@ footer .footer-box .box:nth-child(3) p span {
 
   footer .footer-box .box:nth-child(2) a {
     margin-inline: 0;
+    margin-right: 10px;
   }
 }
 
