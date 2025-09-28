@@ -601,6 +601,7 @@ footer .footer-box .box:nth-child(3) p span {
 
   footer .footer-box {
     grid-template-columns: 1fr;
+    row-gap: 50px;
   }
 
   footer .footer-box .box:nth-child(2) {
