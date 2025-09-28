@@ -599,6 +599,11 @@ footer .footer-box .box:nth-child(3) p span {
     text-align: center;
   }
 
+  footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   footer .footer-box {
     grid-template-columns: 1fr;
     row-gap: 50px;
@@ -611,6 +616,10 @@ footer .footer-box .box:nth-child(3) p span {
   footer .footer-box .box:nth-child(2) a {
     margin-inline: 0;
     margin-right: 10px;
+  }
+
+  footer .footer-box .box:nth-child(3) {
+    color: rgba(255, 255, 255, 0.6);
   }
 }
 
@@ -678,6 +687,10 @@ footer .footer-box .box:nth-child(3) p span {
   }
 
   .about .about-box .box:nth-child(2) p {
+    font-size: 12px;
+  }
+
+  footer .footer-box .box:nth-child(1) p {
     font-size: 12px;
   }
 }
