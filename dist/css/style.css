@@ -97,6 +97,7 @@
 
 .header .header-box .box:nth-child(1) .title p {
   color: rgba(255, 255, 255, 0.5);
+  --animate-delay: 0.7s;
 }
 
 .header .header-box .box:nth-child(1) form {
@@ -107,6 +108,7 @@
   border-radius: 30px;
   padding: 8px;
   width: 55%;
+  --animate-delay: 1.2s;
 }
 
 .header .header-box .box:nth-child(1) form ::-webkit-input-placeholder {
@@ -156,6 +158,7 @@
 
 .header .header-box .box:nth-child(1) .info .box h1 {
   color: #ffffff;
+  --animate-delay: 1.5s;
 }
 
 .header .header-box .box:nth-child(1) .info .box h1 i {
