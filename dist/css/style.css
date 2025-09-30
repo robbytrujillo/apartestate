@@ -210,6 +210,7 @@
   -ms-transform: translate(-50%, -65%);
   -o-transform: translate(-50%, -65%);
   border-radius: 30px;
+  --animate-delay: 1.8s;
 }
 
 .header .header-box .box:nth-child(2) .loc p:nth-child(1) {
